@@ -2,8 +2,9 @@ from django.conf import settings
 from django.shortcuts import render, get_object_or_404
 from blog.models import Post
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
-from blog.forms import EmailPostForm
+from blog.forms import EmailPostForm, CommentForm
 from django.core.mail import send_mail
+from django.views.decorators.http import require_POST
 
 
 def blog_list(request):
@@ -38,10 +39,16 @@ def post_detail(request, post_year, post_month, post_day, post_slug):
                              publish__day=post_day,
                              slug=post_slug,
                              status=Post.Status.PUBLISHED)
+    # Список активных комментариев к посту
+    comments = post.comments.filter(active=True)
+    # Форма для комментирования пользователями
+    form = CommentForm()
     title = 'Post detail'
     context = {
         'title': title,
         'post': post,
+        'comments': comments,
+        'form': form,
     }
     
     return render(request, 'blog/detail.html', context=context)
@@ -80,3 +87,30 @@ def post_share(request, post_id):
     }
     
     return render(request, 'blog/share.html', context=context)
+
+
+@require_POST
+def post_comment(request, post_id):
+    post = get_object_or_404(
+        Post,
+        id=post_id,
+        status=Post.Status.PUBLISHED
+    )
+    comment = None
+    # Комментарий был отправлен
+    form = CommentForm(data=request.POST)
+    if form.is_valid():
+        # Создать объект класса Comment, не сохраняя его в базе данных
+        comment = form.save(commit=False)
+        # Назначить пост комментарию
+        comment.post = post
+        # Сохранить комментарий в базе данных
+        comment.save()
+    
+    context = {
+        'title': 'Comment to post',
+        'form': form,
+        'comment': comment,
+        'post': post,
+    }
+    return render(request, 'blog/comment.html', context=context)

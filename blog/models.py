@@ -3,6 +3,7 @@ from django.urls import reverse
 from django.utils import timezone
 from django.contrib.auth.models import User
 from django.utils.text import slugify
+from taggit.managers import TaggableManager
 
 
 class PublishedManager(models.Manager):
@@ -26,6 +27,9 @@ class Post(models.Model):
     updated = models.DateTimeField(auto_now=True)  # поле дата изменения
     
     status = models.CharField(max_length=2, choices=Status.choices, default=Status.DRAFT)
+    
+    # Менеджер tags позволит добавлять, извлекать и удалять теги из объектов Post
+    tags = TaggableManager()
     
     objects = models.Manager()  # менеджер, применяемый по умолчанию
     published = PublishedManager()  # конкретно-прикладной менеджер

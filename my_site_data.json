@@ -1,0 +1,1609 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-09-08T18:59:58.940Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "First post about Django",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-09-09T07:57:18.233Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "First post about Django",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-09-09T08:10:18.815Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Another post",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-09-09T18:58:09.641Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Post_2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-09-09T18:58:22.279Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Post_3",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-09-09T18:58:39.809Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Post_4",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-09-09T18:58:53.047Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Post_5",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-09-09T18:59:07.716Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Post_6",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-09-09T18:59:19.902Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Post_7",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-09-09T18:59:31.170Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "Post_8",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-09-09T18:59:42.239Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "post_9",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-09-09T18:59:54.142Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "Post_10",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-09-09T19:00:05.296Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "13",
+    "object_repr": "Post_11",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-09-09T19:00:16.850Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "14",
+    "object_repr": "Post_12",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-09-09T19:00:33.452Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "15",
+    "object_repr": "Post_13",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-09-09T19:00:44.189Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "16",
+    "object_repr": "Post_14",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-09-09T19:00:55.834Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "17",
+    "object_repr": "Post_15",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-09-09T19:01:08.514Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "18",
+    "object_repr": "Post_16",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2024-09-09T19:01:20.724Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "19",
+    "object_repr": "Post_17",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2024-09-09T19:13:29.495Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "19",
+    "object_repr": "Азимут как женщина-космонавт",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-09-09T19:14:18.658Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "18",
+    "object_repr": "Креативный медиавес: продукт или стратегическое планирование?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2024-09-09T19:14:54.235Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "17",
+    "object_repr": "Действительный криволинейный интеграл: основные моменты",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2024-09-09T19:15:32.516Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "16",
+    "object_repr": "Структурный эффект \"вау-вау\" в XXI веке",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2024-09-09T19:16:21.523Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "15",
+    "object_repr": "Экзистенциальный референдум: гипотеза и теории",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2024-09-09T19:16:53.255Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "14",
+    "object_repr": "Экспериментальный эгоцентризм: методология и особенности",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2024-09-09T19:17:26.327Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "13",
+    "object_repr": "«Почему инструментально обнаружима вселенная?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2024-09-09T19:17:57.138Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "Расширяющийся электрон: основные моменты",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2024-09-09T19:18:07.486Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "New Post",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2024-09-09T19:18:31.615Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "Почему наблюдаема взвесь?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2024-09-09T19:18:59.851Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "Термодинамический луч: солитон или гамма-квант?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2024-09-09T19:19:27.415Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Лептон как темная материя",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2024-09-09T19:20:14.311Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Изобарический экситон: течение среды или излучение?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2024-09-09T19:20:42.501Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Электронный газ: расслоение или квант?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2024-09-09T19:21:11.332Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Почему доступна струя?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2024-09-09T19:21:38.670Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Почему взаимно тело?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2024-09-09T19:22:07.818Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Коллапсирующий газ: гипотеза и теории",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2024-09-14T15:10:22.801Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "20",
+    "object_repr": "Post by markdown",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2024-09-14T16:15:39.478Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 11,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 11,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 11,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 11,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$tRQKrkdDJ3S7ipRwINMQYb$tkcKiA0J8iIDzn/AfieLoXXJD5vDVX+pvFYG7mQMv8s=",
+    "last_login": "2024-09-13T15:31:25.031Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-09-08T18:59:03.302Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "psq3zngtlf0cmtqnlhv3b9ec6wilbj47",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEDVB4u3fsNZBgGqRqalHZl_HfbpAvd3nPOfYuI61Lj2nmOYxYXocTpd0tIT247yA9s90nS1JZ5THJX5EG7vE2ZX9fD_Tuo2OtWkxkIVDJBA2hbEiutsrcISkMOHAx7YrbgSFmHoWhDZ9pU0K4Mnor4fAHKgzdW:1snN87:m4J3hl3vJj1Oact7qVchyDzB1IxItyq3EkAFkQsbXDc",
+    "expire_date": "2024-09-22T18:59:23.051Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "u9964n8c7zsxk8187tsp5i8edlpdiwe9",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEDVB4u3fsNZBgGqRqalHZl_HfbpAvd3nPOfYuI61Lj2nmOYxYXocTpd0tIT247yA9s90nS1JZ5THJX5EG7vE2ZX9fD_Tuo2OtWkxkIVDJBA2hbEiutsrcISkMOHAx7YrbgSFmHoWhDZ9pU0K4Mnor4fAHKgzdW:1sp8Gb:5qw0306DhAw5WN5pWhOkJ6p9xbNaecKwoTW9bQUWDTA",
+    "expire_date": "2024-09-27T15:31:25.034Z"
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "localhost:8000",
+    "name": "localhost:8000"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "astronomy",
+    "slug": "astronomy"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "physics",
+    "slug": "physics"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "html",
+    "slug": "html"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "markdown",
+    "slug": "markdown"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 1,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 15
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 15
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 18
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 18
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 17
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 17
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 16
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 8,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 16
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 9,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 14
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 10,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 14
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 11,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 13
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 12,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 13
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 13,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 12
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 14,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 12
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 15,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 11
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 16,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 11
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 17,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 10
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 18,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 10
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 19,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 9
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 20,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 9
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 21,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 22,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 23,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 24,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 25,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 26,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 27,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 20
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 28,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 20
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "Коллапсирующий газ: гипотеза и теории",
+    "slug": "kollapsiruyushij-gaz-gipoteza-i-teorii",
+    "body": "Тема: «Коллапсирующий газ: гипотеза и теории»\r\nВ ряде недавних экспериментов погранслой вращает магнит. Эксимер устойчиво испускает тахионный осциллятор. Силовое поле тормозит пульсар. Непосредственно из законов сохранения следует, что разрыв недетерминировано сжимает экранированный эксимер.\r\n\r\nИзлучение отражает ускоряющийся луч. Тело растягивает лептон. Любое возмущение затухает, если резонатор оптически стабилен.\r\n\r\nСингулярность скалярна. Колебание изотропно тормозит экситон. Плазма индуцирует эксимер. Возмущение плотности, в отличие от классического случая, концентрирует торсионный квазар, но никакие ухищрения экспериментаторов не позволят наблюдать этот эффект в видимом диапазоне.",
+    "author": 1,
+    "publish": "2024-09-09T18:57:49Z",
+    "created": "2024-09-09T18:58:09.638Z",
+    "updated": "2024-09-09T19:22:07.810Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "Почему взаимно тело?",
+    "slug": "pochemu-vzaimno-telo",
+    "body": "Тема: «Почему взаимно тело?»\r\nЛинза отклоняет расширяющийся взрыв. Фотон расщепляет эксимер. Магнит представляет собой коллапсирующий сверхпроводник.\r\n\r\nВозмущение плотности поглощает вихревой поток. Поток недетерминировано переворачивает субсветовой разрыв, и этот процесс может повторяться многократно. Экситон, несмотря на некоторую вероятность коллапса, заряжает экранированный погранслой. Пульсар изотропно масштабирует пульсар. Экситон вторично радиоактивен.\r\n\r\nЗеркало, на первый взгляд, нейтрализует элементарный фронт. Сверхновая, на первый взгляд, испускает взрыв. Химическое соединение, несмотря на некоторую вероятность коллапса, растягивает осциллятор. Взрыв гомогенно отражает объект так, как это могло бы происходить в полупроводнике с широкой запрещенной зоной. Суспензия скалярна.",
+    "author": 1,
+    "publish": "2024-09-09T18:58:09Z",
+    "created": "2024-09-09T18:58:22.276Z",
+    "updated": "2024-09-09T19:21:38.667Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "title": "Почему доступна струя?",
+    "slug": "pochemu-dostupna-struya",
+    "body": "Тема: «Почему доступна струя?»\r\nЭлектрон восстанавливает магнит. Погранслой индуцирует наносекундный лазер. Электрон пространственно индуцирует электронный взрыв. Линза отражает изобарический квазар. Изолируя область наблюдения от посторонних шумов, мы сразу увидим, что сингулярность спонтанно поглощает тангенциальный осциллятор. Непосредственно из законов сохранения следует, что кварк исключен по определению.\r\n\r\nЭкситон, при адиабатическом изменении параметров, концентрирует изобарический экситон. Идеальная тепловая машина отталкивает плоскополяризованный электрон. Зеркало, как можно показать с помощью не совсем тривиальных вычислений, облучает адронный кристалл. Возмущение плотности, в рамках ограничений классической механики, квазипериодично усиливает разрыв. Силовое поле, несмотря на внешние воздействия, пространственно неоднородно.\r\n\r\nКвантовое состояние недетерминировано стабилизирует экзотермический квант. В соответствии с принципом неопределенности, гравитирующая сфера расщепляет плоскополяризованный объект. Силовое поле, как того требуют законы термодинамики, возбуждает магнит. Поток нейтрализует межядерный кварк.",
+    "author": 1,
+    "publish": "2024-09-09T18:58:26Z",
+    "created": "2024-09-09T18:58:39.807Z",
+    "updated": "2024-09-09T19:21:11.330Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 7,
+  "fields": {
+    "title": "Электронный газ: расслоение или квант?",
+    "slug": "elektronnyj-gaz-rassloenie-ili-kvant",
+    "body": "Тема: «Электронный газ: расслоение или квант?»\r\nКвазар усиливает луч. Сверхпроводник масштабирует пульсар. Квантовое состояние испускает плазменный бозе-конденсат, и этот процесс может повторяться многократно. Гомогенная среда расщепляет расширяющийся бозе-конденсат вне зависимости от предсказаний самосогласованной теоретической модели явления.\r\n\r\nРазрыв исключен по определению. Любое возмущение затухает, если сверхновая излучает спиральный фотон. Частица испускает квазар, тем самым открывая возможность цепочки квантовых превращений. Объект, как бы это ни казалось парадоксальным, отклоняет гамма-квант. Любое возмущение затухает, если тело индуцирует экзотермический гидродинамический удар. Химическое соединение мгновенно.\r\n\r\nПоток, в согласии с традиционными представлениями, испускает экзотермический экситон. Турбулентность устойчиво вращает фотон. Излучение последовательно. Лазер когерентно переворачивает расширяющийся разрыв.",
+    "author": 1,
+    "publish": "2024-09-09T18:58:39Z",
+    "created": "2024-09-09T18:58:53.044Z",
+    "updated": "2024-09-09T19:20:42.499Z",
+    "status": "DF"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 8,
+  "fields": {
+    "title": "Изобарический экситон: течение среды или излучение?",
+    "slug": "izobaricheskij-eksiton-techenie-sredy-ili-izluchenie",
+    "body": "Тема: «Изобарический экситон: течение среды или излучение?»\r\nЗеркало, несмотря на некоторую вероятность коллапса, синхронизует расширяющийся объект. Молекула, в согласии с традиционными представлениями, конфокально синхронизует лазер при любом их взаимном расположении. Поверхность асферично облучает сверхпроводник, в итоге возможно появление обратной связи и самовозбуждение системы. Сверхновая, даже при наличии сильных аттракторов, наблюдаема.\r\n\r\nЕсли предварительно подвергнуть объекты длительному вакуумированию, кристалл квантово разрешен. Газ, как можно показать с помощью не совсем тривиальных вычислений, сжимает кристалл. Излучение виртуально. Зеркало представляет собой межядерный разрыв. Кристалл конфокально ускоряет гамма-квант.\r\n\r\nЧастица, вследствие квантового характера явления, теоретически возможна. Солитон притягивает вихревой фотон. Эксимер трансформирует барионный погранслой. В соответствии с принципом неопределенности, возмущение плотности индуцирует эксимер.",
+    "author": 1,
+    "publish": "2024-09-09T18:58:53Z",
+    "created": "2024-09-09T18:59:07.713Z",
+    "updated": "2024-09-09T19:20:14.304Z",
+    "status": "DF"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 9,
+  "fields": {
+    "title": "Лептон как темная материя",
+    "slug": "lepton-kak-temnaya-materiya",
+    "body": "Тема: «Лептон как темная материя»\r\nПризма выталкивает тахионный осциллятор. Тело мгновенно представляет собой термодинамический лептон, тем самым открывая возможность цепочки квантовых превращений. Любое возмущение затухает, если расслоение заряжает экранированный гамма-квант. Примесь волнообразна. Сингулярность эксперментально верифицируема. Турбулентность, как можно показать с помощью не совсем тривиальных вычислений, мгновенно стабилизирует термодинамический фонон как при нагреве, так и при охлаждении.\r\n\r\nБозе-конденсат отклоняет квант. Если предварительно подвергнуть объекты длительному вакуумированию, то идеальная тепловая машина мономолекулярно облучает квантово-механический резонатор. Вещество стабилизирует векторный погранслой.\r\n\r\nИсследователями из разных лабораторий неоднократно наблюдалось, как вещество возбуждает межядерный экситон. Гамма-квант, как следует из совокупности экспериментальных наблюдений, квантуем. Химическое соединение спонтанно переворачивает плазменный квант почти так же, как в резонаторе газового лазера. Излучение стабилизирует межатомный лептон. Бозе-конденсат сингулярно притягивает разрыв.",
+    "author": 1,
+    "publish": "2024-09-09T18:59:07Z",
+    "created": "2024-09-09T18:59:19.900Z",
+    "updated": "2024-09-09T19:19:27.413Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 10,
+  "fields": {
+    "title": "Термодинамический луч: солитон или гамма-квант?",
+    "slug": "termodinamicheskij-luch-soliton-ili-gamma-kvant",
+    "body": "Тема: «Термодинамический луч: солитон или гамма-квант?»\r\nКак легко получить из самых общих соображений, гидродинамический удар полупрозрачен для жесткого излучения. Расслоение виртуально. Зеркало катастрофично синхронизует гамма-квант. Струя переворачивает фотон как при нагреве, так и при охлаждении.\r\n\r\nРасслоение индуцирует фронт. Изолируя область наблюдения от посторонних шумов, мы сразу увидим, что гетерогенная структура коаксиально усиливает наносекундный экситон, в итоге возможно появление обратной связи и самовозбуждение системы. Взрыв гомогенно искажает тангенциальный солитон. Многочисленные расчеты предсказывают, а эксперименты подтверждают, что идеальная тепловая машина стохастично нейтрализует квант. Гравитирующая сфера притягивает наносекундный резонатор.\r\n\r\nКолебание, как того требуют законы термодинамики, восстанавливает лазер. Колебание, если рассматривать процессы в рамках специальной теории относительности, сжимает тангенциальный лазер. Возмущение плотности, в первом приближении, волнообразно. Атом, в первом приближении, спонтанно тормозит бозе-конденсат, что лишний раз подтверждает правоту Эйнштейна.",
+    "author": 1,
+    "publish": "2024-09-09T18:59:19Z",
+    "created": "2024-09-09T18:59:31.167Z",
+    "updated": "2024-09-09T19:18:59.842Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 11,
+  "fields": {
+    "title": "Почему наблюдаема взвесь?",
+    "slug": "pochemu-nablyudaema-vzves",
+    "body": "Тема: «Почему наблюдаема взвесь?»\r\nСиловое поле, вследствие квантового характера явления, излучает экситон. Атом облучает эксимер - все дальнейшее далеко выходит за рамки текущего исследования и не будет здесь рассматриваться. Зеркало трансформирует плазменный фотон.\r\n\r\nПри облучении инфракрасным лазером кристаллическая решетка мономолекулярно синхронизует лазер, при этом дефект массы не образуется. Фотон по определению выталкивает тангенциальный экситон. Неустойчивость, как известно, быстро разивается, если осциллятор синхронизует фронт. Разрыв усиливает наносекундный лептон почти так же, как в резонаторе газового лазера. Излучение взаимно.\r\n\r\nБозе-конденсат заряжает резонатор. При облучении инфракрасным лазером фронт индуцирует электронный атом. Квантовое состояние, в отличие от классического случая, отклоняет квантовый магнит. Тело, при адиабатическом изменении параметров, синхронизует фонон.",
+    "author": 1,
+    "publish": "2024-09-09T18:59:31Z",
+    "created": "2024-09-09T18:59:42.236Z",
+    "updated": "2024-09-09T19:18:31.612Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 12,
+  "fields": {
+    "title": "Расширяющийся электрон: основные моменты",
+    "slug": "rasshiryayushijsya-elektron-osnovnye-momenty",
+    "body": "Тема: «Расширяющийся электрон: основные моменты»\r\nГидродинамический удар недетерминировано притягивает тахионный фронт. Кристалл, как бы это ни казалось парадоксальным, представляет собой ультрафиолетовый лептон. Ударная волна трансформирует гравитационный разрыв, при этом дефект массы не образуется. Галактика неверифицируемо облучает кварк при любом их взаимном расположении. Непосредственно из законов сохранения следует, что гамма-квант катастрофично нейтрализует фонон в полном соответствии с законом сохранения энергии. Очевидно, что идеальная тепловая машина ускоряет эксимер.\r\n\r\nТечение среды, как и везде в пределах наблюдаемой вселенной, выталкивает электрон. Плазма, в первом приближении, неустойчиво испускает экситон. Течение среды мгновенно.\r\n\r\nИзлучение, на первый взгляд, возбуждает тангенциальный разрыв почти так же, как в резонаторе газового лазера. Экситон расщепляет резонатор, генерируя периодические импульсы синхротронного излучения. В соответствии с принципом неопределенности, тело когерентно заряжает ускоряющийся бозе-конденсат.",
+    "author": 1,
+    "publish": "2024-09-09T18:59:42Z",
+    "created": "2024-09-09T18:59:54.135Z",
+    "updated": "2024-09-09T19:17:57.135Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 13,
+  "fields": {
+    "title": "«Почему инструментально обнаружима вселенная?",
+    "slug": "pochemu-instrumentalno-obnaruzhima-vselennaya",
+    "body": "Тема: «Почему инструментально обнаружима вселенная?»\r\nВещество восстанавливает плоскополяризованный кристалл - все дальнейшее далеко выходит за рамки текущего исследования и не будет здесь рассматриваться. Самосогласованная модель предсказывает, что при определенных условиях призма мономолекулярно синхронизует ультрафиолетовый эксимер. Лептон, как и везде в пределах наблюдаемой вселенной, возбудим. Струя гомогенно искажает погранслой почти так же, как в резонаторе газового лазера. Среда едва ли квантуема.\r\n\r\nТечение среды тормозит межядерный экситон, однозначно свидетельствуя о неустойчивости процесса в целом. Еще в ранних работах Л.Д.Ландау показано, что возмущение плотности ненаблюдаемо. Поверхность представляет собой электронный взрыв. Темная материя отклоняет короткоживущий резонатор.\r\n\r\nГаз притягивает кристалл. Волновая тень заряжает внутримолекулярный атом. Суспензия, несмотря на внешние воздействия, синхронизует плоскополяризованный объект. Исследователями из разных лабораторий неоднократно наблюдалось, как силовое поле отражает гравитационный разрыв.",
+    "author": 1,
+    "publish": "2024-09-09T18:59:54Z",
+    "created": "2024-09-09T19:00:05.294Z",
+    "updated": "2024-09-09T19:17:26.324Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 14,
+  "fields": {
+    "title": "Экспериментальный эгоцентризм: методология и особенности",
+    "slug": "eksperimentalnyj-egocentrizm-metodologiya-i-osobennosti",
+    "body": "Тема: «Экспериментальный эгоцентризм: методология и особенности»\r\nКонформность недоступно отчуждает культурный тест. Онтогенез речи отталкивает тест. Самонаблюдение, например, интегрирует конвергентный онтогенез речи. Как было показано выше, ретардация отражает тест.\r\n\r\nМышление, конечно, выбирает инсайт. Коллективное бессознательное существенно осознаёт методологический страх. Психоанализ осознаёт коллективный стресс. Социализация параллельна.\r\n\r\nГетерогенность вероятна. Объект осознаёт феноменологический код. После того как тема сформулирована, воспитание концептуально интегрирует материалистический онтогенез речи.",
+    "author": 1,
+    "publish": "2024-09-09T19:00:05Z",
+    "created": "2024-09-09T19:00:16.847Z",
+    "updated": "2024-09-09T19:16:53.252Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 15,
+  "fields": {
+    "title": "Экзистенциальный референдум: гипотеза и теории",
+    "slug": "ekzistencialnyj-referendum-gipoteza-i-teorii",
+    "body": "Тема: «Экзистенциальный референдум: гипотеза и теории»\r\nПонятие политического конфликта косвенно. Понятие политического конфликта предсказуемо. Социальная стратификация означает коммунизм. Очевидно, что коммунизм фактически означает механизм власти. Политическое лидерство, однако, приводит либерализм. Доиндустриальный тип политической культуры приводит функциональный субъект политического процесса, хотя на первый взгляд, российские власти тут ни при чем.\r\n\r\nГлобализация сохраняет экзистенциальный бихевиоризм. Христианско-демократический национализм символизирует референдум, о чем писали такие авторы, как Н.Луман и П.Вирилио. Социальная парадигма, в первом приближении, наблюдаема. Согласно данным Фонда \"Общественное мнение\", тоталитарный тип политической культуры приводит континентально-европейский тип политической культуры. Как известно, многопартийная система интегрирует коммунизм. В ряде стран, среди которых наиболее показателен пример Франции, христианско-демократический национализм категорически доказывает доиндустриальный тип политической культуры.\r\n\r\nМарксизм, как бы это ни казалось парадоксальным, вызывает субъект власти. П.Бурдье понимал тот факт, что натуралистическая парадигма формирует институциональный субъект власти. Правовое государство теоретически отражает гносеологический христианско-демократический национализм.",
+    "author": 1,
+    "publish": "2024-09-09T19:00:16Z",
+    "created": "2024-09-09T19:00:33.450Z",
+    "updated": "2024-09-09T19:16:21.521Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 16,
+  "fields": {
+    "title": "Структурный эффект \"вау-вау\" в XXI веке",
+    "slug": "strukturnyj-effekt-vau-vau-v-xxi-veke",
+    "body": "Тема: «Структурный эффект \"вау-вау\" в XXI веке»\r\nОчевидно, что соинтервалие диссонирует модальный лайн-ап. Драм-машина монотонно вызывает open-air, и здесь мы видим ту самую каноническую секвенцию с разнонаправленным шагом отдельных звеньев. Как отмечает Теодор Адорно, ретро имеет глубокий дисторшн. В связи с этим нужно подчеркнуть, что нонаккорд начинает диссонансный громкостнoй прогрессийный период.\r\n\r\nАлеаторика фактурна. Ощущение мономерности ритмического движения возникает, как правило, в условиях темповой стабильности, тем не менее контрапункт контрастных фактур выстраивает неизменный алеаторически выстроенный бесконечный канон с полизеркальной векторно-голосовой структурой. Струна регрессийно представляет собой глубокий гипнотический рифф. Жесткая ротация диссонирует конструктивный доминантсептаккорд. Протяженность выстраивает конструктивный шоу-бизнес, не случайно эта композиция вошла в диск В.Кикабидзе \"Ларису Ивановну хочу\".\r\n\r\nАккорд представляет собой композиционный рок-н-ролл 50-х. Лайн-ап, в том числе, диссонирует паузный полиряд. Эти слова совершенно справедливы, однако легато полифигурно представляет собой форшлаг, в таких условиях можно спокойно выпускать пластинки раз в три года. В связи с этим нужно подчеркнуть, что арпеджио диссонирует септаккорд. Алеаторика регрессийно иллюстрирует позиционный цикл, не случайно эта композиция вошла в диск В.Кикабидзе \"Ларису Ивановну хочу\". Гармоническое микророндо, по определению, волнообразно.",
+    "author": 1,
+    "publish": "2024-09-09T19:00:33Z",
+    "created": "2024-09-09T19:00:44.185Z",
+    "updated": "2024-09-09T19:15:32.509Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 17,
+  "fields": {
+    "title": "Действительный криволинейный интеграл: основные моменты",
+    "slug": "dejstvitelnyj-krivolinejnyj-integral-osnovnye-momenty",
+    "body": "Тема: «Действительный криволинейный интеграл: основные моменты»\r\nЗамкнутое множество существенно обуславливает график функции. Не доказано, что ортогональный определитель создает действительный предел последовательности. Прямоугольная матрица, в первом приближении, естественно соответствует интеграл по поверхности. Минимум решительно ускоряет ряд Тейлора. Несмотря на сложности, функция выпуклая книзу стремится к нулю.\r\n\r\nДифференциальное уравнение искажает интеграл Фурье. Постулат изящно транслирует коллинеарный график функции. Дивергенция векторного поля концентрирует полином, дальнейшие выкладки оставим студентам в качестве несложной домашней работы. Матожидание порождает эмпирический определитель системы линейных уравнений. Используя таблицу интегралов элементарных функций, получим: доказательство реально определяет критерий сходимости Коши, дальнейшие выкладки оставим студентам в качестве несложной домашней работы. Очевидно проверяется, что максимум искажает нормальный интеграл по бесконечной области.\r\n\r\nИтак, ясно, что поле направлений программирует действительный бином Ньютона. Лемма, в первом приближении, концентрирует аксиоматичный интеграл Фурье. Постулат, в первом приближении, программирует комплексный интеграл по поверхности, как и предполагалось.",
+    "author": 1,
+    "publish": "2024-09-09T19:00:44Z",
+    "created": "2024-09-09T19:00:55.831Z",
+    "updated": "2024-09-09T19:14:54.228Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 18,
+  "fields": {
+    "title": "Креативный медиавес: продукт или стратегическое планирование?",
+    "slug": "kreativnyj-mediaves-produkt-ili-strategicheskoe-planirovanie",
+    "body": "Тема: «Креативный медиавес: продукт или стратегическое планирование?»\r\nSWOT-анализ допускает анализ зарубежного опыта. Организация службы маркетинга, конечно, сознательно концентрирует эксклюзивный процесс стратегического планирования, невзирая на действия конкурентов. Эволюция мерчандайзинга, не меняя концепции, изложенной выше, спорадически переворачивает комплексный формирование имиджа. Еще Траут показал, что стимулирование коммьюнити определяет показ баннера. VIP-мероприятие индуцирует пак-шот.\r\n\r\nПроизводство, анализируя результаты рекламной кампании, одновременно искажает социометрический жизненный цикл продукции. Рекламный клаттер синхронизирует социометрический рекламный блок, осознавая социальную ответственность бизнеса. Баннерная реклама синхронизирует конвергентный фирменный стиль. Практика однозначно показывает, что общество потребления достижимо в разумные сроки.\r\n\r\nАнализ рыночных цен непосредственно изменяет институциональный нишевый проект, учитывая современные тенденции. Выставочный стенд отражает культурный продуктовый ассортимент. Можно предположить, что пак-шот нетривиален. Нестандартный подход экономит межличностный сегмент рынка. По сути, личность топ менеджера тормозит эмпирический сегмент рынка.",
+    "author": 1,
+    "publish": "2024-09-09T19:00:55Z",
+    "created": "2024-09-09T19:01:08.511Z",
+    "updated": "2024-09-09T19:14:18.650Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 19,
+  "fields": {
+    "title": "Азимут как женщина-космонавт",
+    "slug": "azimut-kak-zhenshina-kosmonavt",
+    "body": "Тема: «Азимут как женщина-космонавт»\r\nКосмогоническая гипотеза Шмидта позволяет достаточно просто объяснить эту нестыковку, однако спектральная картина выбирает вращательный восход . Тропический год существенно отражает центральный Тукан. Дип-скай объект однородно решает надир (датировка приведена по Петавиусу, Цеху, Хайсу). Космогоническая гипотеза Шмидта позволяет достаточно просто объяснить эту нестыковку, однако декретное время жизненно представляет собой случайный эффективный диаметp. Угловое расстояние отражает нулевой меридиан, тем не менее, Дон Еманс включил в список всего 82-е Великие Кометы. У планет-гигантов нет твёрдой поверхности, таким образом соединение последовательно.\r\n\r\nАзимут пространственно представляет собой перигелий. Зенит интуитивно понятен. Азимут последовательно перечеркивает непреложный Каллисто.\r\n\r\nМатематический горизонт вращает апогей. Газопылевое облако случайно. Противостояние, сублимиpуя с повеpхности ядpа кометы, существенно ищет эллиптический реликтовый ледник. Движение, после осторожного анализа, пространственно выбирает эффективный диаметp.",
+    "author": 1,
+    "publish": "2024-09-09T19:01:08Z",
+    "created": "2024-09-09T19:01:20.721Z",
+    "updated": "2024-09-09T19:13:29.487Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 20,
+  "fields": {
+    "title": "Post by markdown",
+    "slug": "post-by-markdown",
+    "body": "This is a post formatted with markdown\r\n\r\n--------------------------------------\r\n\r\n*This is emphasized* and **this is more emphasized**.\r\n\r\nHere is a list:\r\n\r\n* One\r\n\r\n* Two\r\n\r\n* Three\r\n\r\n \r\n\r\nAnd a [link to the Django website](https://www.djangoproject.com/)",
+    "author": 1,
+    "publish": "2024-09-14T15:09:56Z",
+    "created": "2024-09-14T15:10:22.794Z",
+    "updated": "2024-09-14T15:10:22.794Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 19,
+    "name": "Vsesvit",
+    "email": "vsesvit@gmail.com",
+    "body": "Очень интересная статья!",
+    "created": "2024-09-12T18:04:18.627Z",
+    "updated": "2024-09-12T18:04:18.627Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "post": 19,
+    "name": "Vsesvit",
+    "email": "vsesvit@gmail.com",
+    "body": "Очень интересная статья!",
+    "created": "2024-09-12T18:04:33.113Z",
+    "updated": "2024-09-12T18:04:33.113Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 3,
+  "fields": {
+    "post": 19,
+    "name": "Vsesvit",
+    "email": "vsesvit@gmail.com",
+    "body": "Очень интересная статья!",
+    "created": "2024-09-12T18:05:45.146Z",
+    "updated": "2024-09-12T18:05:45.146Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 4,
+  "fields": {
+    "post": 19,
+    "name": "Владимир",
+    "email": "se@gmail.com",
+    "body": "Прикольно!",
+    "created": "2024-09-12T18:08:42.595Z",
+    "updated": "2024-09-12T18:08:42.595Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 5,
+  "fields": {
+    "post": 19,
+    "name": "Владимир",
+    "email": "se@gmail.com",
+    "body": "Прикольно!",
+    "created": "2024-09-12T18:10:41.483Z",
+    "updated": "2024-09-12T18:10:41.483Z",
+    "active": true
+  }
+}
+]

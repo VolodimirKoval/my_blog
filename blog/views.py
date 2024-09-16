@@ -10,7 +10,7 @@ from django.views.decorators.http import require_POST
 from taggit.models import Tag
 from django.db.models import Count
 from django.contrib.postgres.search import SearchVector, SearchRank, SearchQuery
-from django.contrib.postgres.search import TrigramSimilarity
+from django.contrib.postgres.search import TrigramSimilarity, TrigramWordSimilarity
 
 
 def blog_list(request, tag_slug=None):
@@ -142,14 +142,12 @@ def post_search(request):
         form = SearchForm(request.GET)
         if form.is_valid():
             query = form.cleaned_data['query']
-            search_vector = SearchVector('title', weight='A', config='russian') + \
-                            SearchVector('title', weight='B', config='english') + \
-                            SearchVector('body', weight='A', config='russian') + \
-                            SearchVector('body', weight='B', config='english')
-            search_query = SearchQuery(query, config='russian') + SearchQuery(query, config='english')
+            A = 1.0
+            B = 0.4
             results = Post.published.annotate(
-                rank=SearchRank(search_vector, search_query)
-            ).filter(rank__gte=0.3).order_by('-rank')
+                similarity=(A / (A + B) * TrigramSimilarity('title', query)
+                            + B / (A + B) * TrigramWordSimilarity(query, 'body'))
+            ).filter(similarity__gte=0.1).order_by('-similarity')
     
     context = {
         'title': 'Search',

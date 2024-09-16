@@ -3,7 +3,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>{{ title }}</title>
+    {% if title %}
+        <title>{{ title }}</title>
+    {% else %}
+        <title>
+            {% block auth_title %}
+
+            {% endblock auth_title %}
+        </title>
+
+    {% endif %}
     <link href="{% static 'css/blog.css' %}" rel="stylesheet">
 </head>
 <body>
@@ -15,8 +24,21 @@
     <h2>My blog</h2>
     <p>
         This is my blog.
-        I`ve written {% posts_amount %} posts so far.
+        {% posts_amount as posts_amount %}
+        I`ve written {{ posts_amount }} post{{ posts_amount|pluralize:"s" }} so far.
     </p>
+    <hr>
+    {% if user.is_authenticated %}
+        Hi, {{ user.username }}!
+        <form action="{% url 'logout' %}" method="post">
+            {% csrf_token %}
+            <a href="#" onclick="parentNode.submit();">Log Out</a>
+        </form>
+    {% else %}
+        <p>You are not logged in</p>
+        <a href="{% url 'login' %}">Log In</a>
+    {% endif %}
+    <hr>
     <h3>Latest posts</h3>
     {% show_latest_posts 3 %}
     <h3>Most commented posts</h3>

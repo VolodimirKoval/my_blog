@@ -14,6 +14,7 @@ urlpatterns = [
     path('', include('blog.urls', namespace='blog')),
     path('sitemap.xml', sitemap, {'sitemaps': sitemaps},
          name='django.contrib.sitemaps.views.sitemap'),
+    path('accounts/', include('django.contrib.auth.urls')),   # For users
 ]
 
 if settings.DEBUG:

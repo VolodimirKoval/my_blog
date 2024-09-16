@@ -50,7 +50,7 @@ ROOT_URLCONF = 'my_site.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates',],
+        'DIRS': [BASE_DIR / 'templates', ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -65,7 +65,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'my_site.wsgi.application'
 
-
 # Database
 
 DATABASES = {
@@ -78,7 +77,6 @@ DATABASES = {
         'PORT': config('BD_PORT'),
     }
 }
-
 
 # Password validation
 
@@ -97,7 +95,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 
 LANGUAGE_CODE = 'en-us'
@@ -107,7 +104,6 @@ TIME_ZONE = 'Europe/Kyiv'
 USE_I18N = True
 
 USE_TZ = True
-
 
 # Static files (CSS, JavaScript, Images)
 
@@ -128,3 +124,7 @@ EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
 EMAIL_PORT = config('EMAIL_PORT', default=587, cast=int)
 EMAIL_USE_TLS = config('EMAIL_USE_TLS', default=True, cast=bool)
 EMAIL_USE_SSL = config('EMAIL_USE_SSL', default=False, cast=bool)
+
+# For authentication
+LOGIN_REDIRECT_URL = '/'
+LOGOUT_REDIRECT_URL = '/'

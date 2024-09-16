@@ -21,6 +21,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     
+    # For full search achievements
+    'django.contrib.postgres',
+    
     # For site map
     'django.contrib.sites',
     'django.contrib.sitemaps',
